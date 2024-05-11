@@ -24,4 +24,4 @@ obj1.email = "123sabin@gmail.com";
 console.log(obj1.email); //123sabin@gmail.com
 console.log(obj2.email); //123sabin@gmail.com
 
-//Both get the reference of the changed value
+//The reference value is changed
