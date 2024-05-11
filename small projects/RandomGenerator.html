@@ -1,0 +1,48 @@
+<!-- A simple number generator -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+
+    Enter min value: <input type="number" id="min">
+    Enter max value: <input type="number" id="max">
+    Generate: <input type="submit" onclick="generate()">
+    <div id="result">Hello</div>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            gap: 1rem;
+            font-family: sans-serif;
+            font-weight:500;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+
+         generate = () =>{
+            var min = document.getElementById("min").value;
+            var max = document.getElementById("max").value;
+            var result = document.getElementById("result");
+
+            result.innerHTML = (Math.floor(Math.random()*(max-min + 1)+min));
+            
+        }
+        
+
+    </script>
+    
+</body>
+</html>
+
