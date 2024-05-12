@@ -1,11 +1,11 @@
-const name = "Sabin";
+const Name = "Sabin";
 const city = "Dang";
 
 //Traditional Concat Method:
-console.log(name + city); 
+console.log(Name + city); 
 
 //Modern Method:
-console.log(`My Name is ${name}. I live in ${city}`); //string interpolation
+console.log(`My Name is ${Name}. I live in ${city}`); //string interpolation
 //this method is used in backend aswell
 
 
