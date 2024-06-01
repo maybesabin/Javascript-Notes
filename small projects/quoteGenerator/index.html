@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#ff453f] flex items-center justify-center h-[100vh]" style="font-family: sans-serif;">
+    
+    <div class="rounded-[25px] bg-white sm:w-[17rem] sm:h-[22rem]  md:w-[20rem] md:h-[25rem]  lg:h-[30rem] lg:w-[25rem]" style="box-shadow: 0 20px 65px rgba(87,11,16,0.5) ; ">
+        <div class="rounded-[25px] overflow-hidden flex items-center justify-center sm:gap-2 mg:gap-4 lg:gap-[5rem] flex-col absolute bg-red-700 md:h-[20rem] md:w-[25rem]  lg:h-[25rem] lg:w-[30rem] top-[50%] left-[50%]" style="box-shadow: 0 20px 65px rgba(87,11,16,0.5) ;transform: translate(-50%,-50%);">
+            <div class="md:pt-4 sm:text-[10px] md:text-[13px] lg:text-[17px] px-10 text-white flex items-center justify-center flex-col lg:gap-7">
+                <h2 id="quotes"></h2>
+                <h3 id="author" class="font-bold"></h3>
+            </div>
+
+            <button class="md:pb-4" id="getQuotes" 
+            style="border-radius: 25px; border: 1px solid white; background-color: white; padding: 10px;"
+            >Get Quote</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
